@@ -6,11 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        This template is strictly used for documentation requests, including:
+        This template is strictly used for documentation issues, including:
 
         - Documenting undocumented Components/APIs;
         - Updating external links;
-        - anything else that doesn't require touching the codebase itself.
+        - Anything else that doesn't require touching the codebase itself.
 
         If you followed the documentation but things don't work, take some time to consider if it's the documentation or the code that's wrong. In the latter, prefer using the "bug" template.
 
@@ -40,7 +40,7 @@ body:
       label: Issue description
       description: |
         Let us know what went wrong when you were using this documentation and what we could do to improve it.
-      value: |
+      placeholder: |
         I was looking for ... and it appears that ...
 
   - type: textarea
