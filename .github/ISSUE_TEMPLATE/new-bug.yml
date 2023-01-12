@@ -1,6 +1,5 @@
 name: '🐛 (NEW) - Bug Report'
 description: Create a new report for a bug.
-title: '🐛 [BUG] - <title>'
 labels: ['bug']
 body:
   - type: markdown
@@ -51,7 +50,7 @@ body:
     attributes:
       label: 'Screenshots'
       description: If applicable, add screenshots to help explain your problem.
-      value: |
+      placeholder: |
         You can add screenshots by drag and drop or by copying and pasting them.
     validations:
       required: false
@@ -75,6 +74,7 @@ body:
         - Safari
         - Microsoft Edge
         - Opera
+        - Not applicable
     validations:
       required: false
   - type: dropdown
@@ -87,5 +87,6 @@ body:
         - Windows
         - Linux
         - Mac
+        - Not applicable
     validations:
       required: false
