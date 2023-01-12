@@ -1,4 +1,4 @@
-name: '🐛 ( New )Bug Report'
+name: '🐛 Bug Report'
 description: Create a new report for a bug.
 title: '🐛 [BUG] - <title>'
 labels: ['bug']
@@ -6,10 +6,8 @@ body:
   - type: markdown
     attributes:
       value: >
-        ### Thanks for taking the time to fill out this bug report!
-
-        **Please provide as much detail as you can so we have a better chance of fixing the bug quickly.
-          Thanks for your contribution.
+        ### Please provide as much detail as you can so we have a better chance of fixing the bug quickly.
+        Thanks for your contribution.
 
   - type: textarea
     id: description
@@ -39,7 +37,7 @@ body:
     id: reproduction-steps
     attributes:
       label: 'Reproduction steps'
-      description: Please enter an explicit description of your issue
+      description: Steps to reproduce the behavior.
       value: |
         1. Go to '...'
         2. Click on '....'
@@ -54,8 +52,7 @@ body:
       label: 'Screenshots'
       description: If applicable, add screenshots to help explain your problem.
       value: |
-        ![DESCRIPTION](LINK.png)
-      render: bash
+        You can add screenshots by drag and drop or by copying and pasting them.
     validations:
       required: false
   - type: textarea
