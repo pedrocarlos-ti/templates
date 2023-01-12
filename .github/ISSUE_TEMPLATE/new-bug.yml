@@ -1,11 +1,11 @@
-name: '🐛 (NEW) Bug Report'
+name: '🐛 (NEW) - Bug Report'
 description: Create a new report for a bug.
 title: '🐛 [BUG] - <title>'
 labels: ['bug']
 body:
   - type: markdown
     attributes:
-      value: >
+      value: |
         Please provide as much detail as you can so we have a better chance of fixing the bug quickly.
         Thanks for your contribution.
 
