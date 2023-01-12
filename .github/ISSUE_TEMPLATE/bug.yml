@@ -1,29 +1,46 @@
 name: '🐛 Bug Report'
-description: Create a new ticket for a bug.
-title: '🐛 [BUG] - <title>'
+description: Create a new report for a bug.
+title: '[Bug]: '
 labels: ['bug']
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide as much detail as you can so we have a better chance of fixing the bug quickly.
+        Thanks for your contribution.
+
   - type: textarea
     id: description
     attributes:
-      label: 'Description'
-      description: Please enter an explicit description of your issue
-      placeholder: Short and explicit description of your incident...
+      label: Description
+      description: |
+        A clear and concise description of what the bug is.
     validations:
       required: true
-  - type: input
-    id: reprod-url
-    attributes:
-      label: 'Reproduction URL'
-      description: Please enter your GitHub URL to provide a reproduction of the issue
-      placeholder: ex. https://github.com/USERNAME/REPO-NAME
-    validations:
-      required: true
+
   - type: textarea
-    id: reprod
+    id: expected-behavior
+    attributes:
+      label: 'Expected behavior'
+      description: A clear and concise description of what you expected to happen.
+      placeholder: 'I expected to see ...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: 'Actual behavior'
+      description: A clear and concise description of what is happening.
+      placeholder: 'I expected to see ...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
     attributes:
       label: 'Reproduction steps'
-      description: Please enter an explicit description of your issue
+      description: Steps to reproduce the behavior.
       value: |
         1. Go to '...'
         2. Click on '....'
@@ -32,16 +49,17 @@ body:
       render: bash
     validations:
       required: true
+
   - type: textarea
     id: screenshot
     attributes:
       label: 'Screenshots'
       description: If applicable, add screenshots to help explain your problem.
-      value: |
-        ![DESCRIPTION](LINK.png)
-      render: bash
+      placeholder: |
+        You can add screenshots by drag and drop or by copying and pasting them.
     validations:
       required: false
+
   - type: textarea
     id: logs
     attributes:
@@ -50,6 +68,7 @@ body:
       render: bash
     validations:
       required: false
+
   - type: dropdown
     id: browsers
     attributes:
@@ -62,8 +81,10 @@ body:
         - Safari
         - Microsoft Edge
         - Opera
+        - Not applicable
     validations:
       required: false
+
   - type: dropdown
     id: os
     attributes:
@@ -74,5 +95,6 @@ body:
         - Windows
         - Linux
         - Mac
+        - Not applicable
     validations:
       required: false
