@@ -37,15 +37,18 @@ body:
 
   - type: textarea
     attributes:
-      label: Description
-      description: A clear and concise description of what the issue is.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
       label: Issue description
       description: |
         Let us know what went wrong when you were using this documentation and what we could do to improve it.
       value: |
         I was looking for ... and it appears that ...
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 'Screenshots'
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: |
+        You can add screenshots by drag and drop or by copying and pasting them.
+    validations:
+      required: false
