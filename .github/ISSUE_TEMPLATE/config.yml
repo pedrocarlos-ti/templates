@@ -2,10 +2,10 @@ blank_issues_enabled: false
 contact_links:
   - name: ❓ General questions - Microsoft Teams
     url: https://teams.microsoft.com/l/channel/19%3a_wU0qAuZJ5VOImeTw-ianRzKhsL43NVXaH7wEsicsug1%40thread.tacv2/General?groupId=edfc5f07-9b2b-4e40-9b60-b7c1a03e5707&tenantId=0ac51d28-23c3-4b35-a9fb-e1a17aa9eff1
-    about: Need help using RCL? This is the right place to ask.
+    about: Need help using RCL? This channel is the right place to ask.
   - name: ❓ Bugs and Support to RCL - Microsoft Teams
     url: https://teams.microsoft.com/l/channel/19%3a62ab688f946548338d8a7c15397e4966%40thread.tacv2/Bugs%2520and%2520Support%2520to%2520RCL?groupId=edfc5f07-9b2b-4e40-9b60-b7c1a03e5707&tenantId=0ac51d28-23c3-4b35-a9fb-e1a17aa9eff1
-    about: Found a bug? Want to request a new feature? Please search for existing and closed issues. If your problem or idea is not addressed yet, please open a new issue.
+    about: Saw a bug? Want to report a bug? This channel is the right place to report.
   - name: ❓ Suggestions and new requests - Microsoft Teams
     url: https://teams.microsoft.com/l/channel/19%3a2f3e2bcc2e86444d8ab04c6fbd0545ce%40thread.tacv2/Suggestions%2520and%2520new%2520requests?groupId=edfc5f07-9b2b-4e40-9b60-b7c1a03e5707&tenantId=0ac51d28-23c3-4b35-a9fb-e1a17aa9eff1
-    about: Have a question? Found a bug? Want to request a new feature? Please search for existing and closed issues. If your problem or idea is not addressed yet, please open a new issue.
+    about: Have a suggestion? Want to request a new feature? This channel is the right place to request.
